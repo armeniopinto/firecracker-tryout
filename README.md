@@ -2,7 +2,7 @@
 
 I used this scripts to start 32 Firecracker VMMs in a Raspberry Pi 4 and run 32 simultaneous Python scripts that call an external web service in less than 30 seconds.
 
-##Instructions
+## Instructions
 1. Download Firecracker for your architecture.
 2. Run `massive-firecrackers.sh`, optionally passing in the number of VMMs you want to spin-up.
 3. Run `server.py` to start the web service.
@@ -10,7 +10,7 @@ I used this scripts to start 32 Firecracker VMMs in a Raspberry Pi 4 and run 32 
 5. Run `massive-guests.sh` to start and run the guests, passing the number of VMMs you spinned-up.
 6. Check the server output, you should see the calls comming in.
 
-##Contents
+## Contents
 1. `init-network.sh` enables IP forwarding, only run it once.
 2. `start-firecracker.sh`starts a single VMM with a specific ID.
 3. `massive-firecrackers.sh` starts a number of VMMs.
