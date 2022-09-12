@@ -17,9 +17,10 @@ I used this scripts to start 32 Firecracker VMMs in a Raspberry Pi 4 and run 32 
 4. `get-kernel-rootfs.sh` downloads the necessary kernel and rootfs.
 5. `server.py` simple Python "hello" web service.
 6. `client.py` simple Python script to call the "hello" web service.
-7. `set-kernel.sh` configures a specific VMM's kernel.
-8. `set-rootfs.sh` configures a specific VMM's rootfs.
-9. `set-network.sh` configures a specific VMM's network.
-10. `start-guest.sh` starts a specific VMM's guest OS.
-11. `set-all.sh` does everything needs to configure and start a VMM guest.
-12. `massive-guests.sh` starts a number of VMM guests.
+7. `hello.service` a Linux init service to run the client application.
+8. `set-kernel.sh` configures a specific VMM's kernel.
+9. `set-rootfs.sh` configures a specific VMM's rootfs.
+10. `set-network.sh` configures a specific VMM's network.
+11. `start-guest.sh` starts a specific VMM's guest OS.
+12. `set-all.sh` does everything needs to configure and start a VMM guest.
+13. `massive-guests.sh` starts a number of VMM guests.
