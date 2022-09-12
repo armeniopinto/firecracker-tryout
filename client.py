@@ -1,3 +1,2 @@
-import urllib.request
-
-contents = urllib.request.urlopen("http://<FIXME>:8080/hello").read()
+import urllib2
+urllib2.urlopen("http://<FIXME>:<FIXME>/hello").read()
