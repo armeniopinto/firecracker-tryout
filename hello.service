@@ -1,0 +1,6 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Default-Start: 3
+### END INIT INFO
+/usr/bin/python /root/client.py
+reboot
